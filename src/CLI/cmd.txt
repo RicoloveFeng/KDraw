@@ -1,0 +1,9 @@
+resetCanvas 100 100
+setColor 255 0 0
+drawLine 5 7 39 93 71 Bresenham
+setColor 0 255 0
+drawLine 6 96 35 15 58 DDA
+saveCanvas before
+clip 5 30 40 60 60 Liang-Barsky
+clip 6 30 40 60 60 Cohen-Sutherland
+saveCanvas after
